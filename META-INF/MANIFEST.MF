@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.simplified.tmddata.Main
+Class-Path: .
+JavaFX-Modules: javafx.controls javafx.fxml
