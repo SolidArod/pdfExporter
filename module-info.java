@@ -8,12 +8,11 @@ module com.simplified.tmddata {
     requires net.synedra.validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    requires jdk.compiler;
     requires PDFViewerFX;
-    requires pdfbox.app;
-    requires com.sun.jna.platform;
+    requires org.apache.pdfbox;
     requires java.scripting;
 
     opens com.simplified.tmddata to javafx.fxml;
     exports com.simplified.tmddata;
 }
+

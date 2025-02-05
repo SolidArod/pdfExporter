@@ -347,7 +347,7 @@ public class Main extends Application {
                 if (reverseIndex >= size - 1) {
                     smallerResultDelimited[(size - 1) - (index)] = bigArray[reverseIndex];
                 } else if (reverseIndex > -1) {
-                    if (sb.isEmpty()) {
+                    if (sb.length() == 0) {
                         sb.insert(0, bigArray[reverseIndex]);
                     } else {
                         sb.insert(0, " ");
